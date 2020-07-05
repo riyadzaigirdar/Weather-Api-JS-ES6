@@ -11,8 +11,6 @@ class Weather {
         return responseData
     }
 
-    changeLocation(newLocation) {
-        this.location = newLocation
-    }
+
 
 }

@@ -8,11 +8,9 @@ class Ui {
         this.dewpoint = document.getElementById("w-dewpoint")
         this.feelsLike = document.getElementById("w-feels-like")
         this.wind = document.getElementById("w-wind")
-
     }
 
     setWeather(result) {
-        console.log(result.weather[0].description)
         this.location.textContent = result.name
         this.desc.textContent = result.weather[0].description
         this.string.textContent = `${result.main.temp} Degree`
