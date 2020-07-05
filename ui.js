@@ -9,7 +9,7 @@ class Ui {
         this.feelsLike = document.getElementById("w-feels-like")
         this.wind = document.getElementById("w-wind")
     }
-
+    // added in new branch
     setWeather(result) {
         this.location.textContent = result.name
         this.desc.textContent = result.weather[0].description

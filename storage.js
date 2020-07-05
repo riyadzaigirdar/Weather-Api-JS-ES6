@@ -1,5 +1,5 @@
 class Storage {
-
+    // added in new branch
     getItem() {
         let item
         if (localStorage.getItem('city') == null) {
@@ -9,6 +9,7 @@ class Storage {
         }
         return item
     }
+    // added in new branch
     setItem() {
         const item = document.getElementById('city').value
         localStorage.setItem('city', JSON.stringify(item))

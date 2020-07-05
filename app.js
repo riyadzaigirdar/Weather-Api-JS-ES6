@@ -1,7 +1,7 @@
 const ui = new Ui
 const storage = new Storage
 document.addEventListener("DOMContentLoaded", fetchFromLocal)
-
+// added in new branch
 function fetchFromLocal() {
     const item = storage.getItem()
     if (item !== null) {
@@ -13,7 +13,7 @@ function fetchFromLocal() {
     }
 
 }
-
+// added in new branch
 document.getElementById('w-change-btn').addEventListener('click', function () {
     storage.setItem()
     fetchFromLocal()
